@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Count Down Event Time</h1>
+    <p class="date"></p>
+    <ul class="time">
+      <div class="topContainer">
+        <li class="day"></li>
+        <p>day</p>
+      </div>
+      <li>:</li>
+      <div class="topContainer">
+        <li class="hour"></li>
+        <p>hour</p>
+      </div>
+      <li>:</li>
+      <div class="topContainer">
+        <li class="minute"></li>
+        <p>minute</p>
+      </div>
+      <li>:</li>
+      <div class="topContainer">
+        <li class="seconds"></li>
+        <p>seconds</p>
+      </div>
+    </ul>
+    <div>
+      <p class="mainContainerDown">ENTER YOUR NEXT EVENT</p>
+      <div class="container">
+        <input class="dateInput" type="datetime-local" min="" />
+        <button>start</button>
+      </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    8deg,
+    rgba(13, 57, 195, 1) 0%,
+    rgba(200, 116, 183, 1) 64%,
+    rgba(46, 20, 195, 1) 96%
+  );
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 5rem;
+  font-size: 5rem;
+}
+.mainContainerDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  font-size: 2.8rem;
+  color: aliceblue;
+}
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.date {
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+li:nth-child(odd) {
+  background-color: white;
+}
+li:nth-child(even) {
+  color: aliceblue;
+}
+li {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 15rem;
+  color: rgba(0, 0, 0, 0.633);
+  font-size: 7rem;
+  list-style-type: none;
+  border-radius: 8px;
+}
+
+.topContainer {
+  color: aliceblue;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+button {
+  padding: 0.8rem 5rem;
+  background-color: rgba(11, 17, 121, 0.34);
+  font-size: 1.8rem;
+  box-shadow: inset 0 0 10px aliceblue, 0 0 10px aliceblue;
+  border: none;
+  border-radius: 1rem;
+  color: aliceblue;
+  font-weight: 900;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2rem);
+  transition: 0.5s;
+}
+input {
+  padding: 1rem 5rem;
+  outline: none;
+  font-size: 1.2rem;
+  color: blue;
+  border: none;
+}
